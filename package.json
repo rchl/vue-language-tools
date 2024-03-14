@@ -26,5 +26,35 @@
 		"typescript": "latest",
 		"vite": "latest",
 		"vitest": "latest"
+	},
+	"pnpm": {
+	    "overrides": {
+	        "@volar/cdn": "file:../framework/packages/cdn",
+	        "@volar/kit": "file:../framework/packages/kit",
+	        "@volar/language-core": "file:../framework/packages/language-core",
+	        "@volar/language-server": "file:../framework/packages/language-server",
+	        "@volar/language-service": "file:../framework/packages/language-service",
+	        "@volar/monaco": "file:../framework/packages/monaco",
+	        "@volar/snapshot-document": "file:../framework/packages/snapshot-document",
+	        "@volar/source-map": "file:../framework/packages/source-map",
+	        "@volar/test-utils": "file:../framework/packages/test-utils",
+	        "@volar/typescript": "file:../framework/packages/typescript",
+	        "@volar/vscode": "file:../framework/packages/vscode",
+	        "volar-service-css": "file:../services/packages/css",
+	        "volar-service-emmet": "file:../services/packages/emmet",
+	        "volar-service-eslint": "file:../services/packages/eslint",
+	        "volar-service-html": "file:../services/packages/html",
+	        "volar-service-json": "file:../services/packages/json",
+	        "volar-service-prettier": "file:../services/packages/prettier",
+	        "volar-service-pretty-ts-errors": "file:../services/packages/pretty-ts-errors",
+	        "volar-service-prettyhtml": "file:../services/packages/prettyhtml",
+	        "volar-service-pug": "file:../services/packages/pug",
+	        "volar-service-pug-beautify": "file:../services/packages/pug-beautify",
+	        "volar-service-sass-formatter": "file:../services/packages/sass-formatter",
+	        "volar-service-tslint": "file:../services/packages/tslint",
+	        "volar-service-typescript": "file:../services/packages/typescript",
+	        "volar-service-typescript-twoslash-queries": "file:../services/packages/typescript-twoslash-queries",
+	        "volar-service-vetur": "file:../services/packages/vetur"
+	    }
 	}
 }

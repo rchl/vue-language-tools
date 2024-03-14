@@ -72,7 +72,9 @@ function resolvePlugins(
 		return {
 			...base,
 			async provideCompletionItems(document, position, context, item) {
+				console.error(`typescript[${document.languageId}] - provideCompletionItems`)
 				const result = await base.provideCompletionItems?.(document, position, context, item);
+				console.error(`typescript[${document.languageId}] - result:`, result)
 				if (result) {
 
 					// filter __VLS_
